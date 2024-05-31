@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Invitations</title>
+    <link rel="stylesheet" href="taskb.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Party Invitations</h1>
+        
+        <form id="guestForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+            <label for="rsvp">RSVP:</label>
+            <select id="rsvp">
+                <option value="true">Confirmed</option>
+                <option value="false">Pending</option>
+            </select>
+            <button type="submit">Add Guest</button>
+        </form>
+
+        <div id="invitations"></div>
+    </div>
+    <script src="taskb.js"></script>
+</body>
+</html>
