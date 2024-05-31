@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("Hello, JavaScript!");
+
+        var age = 25;
+        let name = "John";
+        const PI = 3.14;
+        var num = 10;
+        var str = "Hello, world!";
+
+        var numAsString = "10";
+        var numAsNumber = parseInt(numAsString)
+
+
+        console.log(age);
+        console.log(name);
+        console.log(PI);
+        console.log(num);
+        console.log(str);
+
+        console.log(numAsNumber);
+
+        // For loop
+            for (var i = 0; i < 5; i++) {
+            console.log("Iteration " + i);
+            }
+            // While loop
+            var count = 0;
+            while (count < 5) {
+            console.log("Count: " + count);
+            count++;          
+}
+
+            var age = 18;
+            if (age >= 18) {
+            console.log("You are an adult.");
+            } else if (age >= 13 && age < 18) {
+            console.log("You are a teenager.");
+            } else {
+            console.log("You are a child.");
+            }
+            console.log(typeof([]));
+
+            const my ={name : "aiman", cms : "12",
+            address : {
+                st : "10", city : "sukkur"
+
+            }
+           
+
+        }
+        console.log(my.address);
+
+        console.log(my);
+
+        for (const key in my){
+        console.log(my[key]);
+        }
+    </script>
+</body>
+</html>
